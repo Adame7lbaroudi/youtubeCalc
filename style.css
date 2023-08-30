@@ -1,0 +1,181 @@
+/* Reset default margin and padding */
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Set a background color and text color for the whole page */
+
+body {
+    background-color: #f5f5f5;
+    color: #666;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: transparent;
+}
+
+
+/* Style the landing section */
+
+.landing {
+    color: #666;
+    padding: 60px 40px;
+}
+
+.landing h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    margin-top: 30px;
+    line-height: 1.6rem;
+    font-size: 15px;
+}
+
+
+/* .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+} */
+
+
+/* Style the calculator section */
+
+.calculator {
+    padding: 50px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.calculator h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#earnings-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+#daily-views-value,
+#estimated-cpm-value {
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.results {
+    /* ... (existing code) */
+    font-size: 1.7rem;
+}
+
+.results p {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* Style the results section */
+
+.results {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+
+/* Content  Style */
+
+.content {
+    background-color: #007bff;
+    color: white;
+    padding: 40px 20px;
+}
+
+.cpm {
+    padding: 10px 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content h3 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.content p {
+    line-height: 1.6rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

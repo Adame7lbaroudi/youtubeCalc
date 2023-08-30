@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Earnings Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Landing Page -->
+    <section class="landing">
+        <h1>Welcome to the YouTube Earnings Calculator</h1>
+        <p>This YouTube Money Calculator provides a glimpse into what a user could make with YouTube by estimating a commonly accepted CPM range based off of the average amount of views you insert down below. We take it one step further to provide users
+            with various settings, allowing them to customize the experience. Please remember that these figures are Youtube Estimated Earnings, as there are many mitigating factors which decide what your overall CPM will be.</p>
+
+    </section>
+
+    <!-- Calculator Page -->
+    <section id="calculator" class="calculator">
+        <h2>Calculate Your Earnings</h2>
+        <form id="earnings-form">
+            <label for="daily-views">Daily Views:</label>
+            <input type="range" id="daily-views" min="0" max="1000000" step="1000" value="0">
+            <span id="daily-views-value">0</span>
+
+            <label for="estimated-cpm">Estimated CPM:</label>
+            <input type="range" id="estimated-cpm" min="0" max="10" step="0.01" value="0">
+            <span id="estimated-cpm-value">0.00</span>
+
+            <button type="submit">Calculate</button>
+        </form>
+
+        <div id="results" class="results">
+            <!-- Calculated results will be displayed here -->
+        </div>
+    </section>
+    <!-- CPM Explanation -->
+    <section class="content">
+        <div class="cpm">
+            <h3>CPM (Cost Per Mille) Explanation:</h3>
+            <p>CPM, which stands for "Cost Per Mille," is a metric used in the advertising industry to represent the cost an advertiser pays for every 1,000 ad impressions. An impression refers to each time an ad is shown to a viewer, regardless of whether
+                the viewer interacts with the ad. CPM is a common way to measure and compare the cost efficiency of different advertising campaigns. In the context of YouTube earnings, CPM is an important factor that determines how much money a content
+                creator can potentially earn from displaying ads on their videos. YouTube creators earn revenue from ads displayed on their videos, and the CPM indicates the average amount they can earn per 1,000 ad views. For example, if a YouTube video
+                has a CPM of $5, it means that for every 1,000 times an ad is shown on that video, the creator would earn approximately $5. However, it's important to note that the actual earnings can vary widely based on factors such as the type of ads,
+                the audience demographics, the content niche, and the engagement level of viewers. Creators often strive to optimize their content and audience engagement to attract higher CPMs, as this can significantly impact their overall earnings.
+                It's also worth noting that different advertisers may pay different rates for ads, and YouTube takes a percentage of the ad revenue, so the actual earnings a creator receives can be less than the calculated CPM. In summary, CPM is a crucial
+                concept in understanding how YouTube creators generate revenue through advertising on their videos. It represents the cost an advertiser pays for a set number of ad impressions, and it plays a significant role in estimating a creator's
+                potential earnings based on the viewership of their content.
+            </p>
+        </div>
+        <h3>Highest YouTube CPM Rates</h3>
+
+        <table>
+            <tr>
+                <th>S.N.</th>
+                <th>Country</th>
+                <th>CPM Rate</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Norway</td>
+                <td>$43.15</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Germany</td>
+                <td>$38.85</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Moldova</td>
+                <td>$29.50</td>
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>Algeria</td>
+                <td>$24.50</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>South Korea</td>
+                <td>$17.00</td>
+            </tr>
+            <tr>
+                <td>6.</td>
+                <td>Sweden</td>
+                <td>$18.18</td>
+            </tr>
+            <tr>
+                <td>7.</td>
+                <td>Finland</td>
+                <td>$14.90</td>
+            </tr>
+            <tr>
+                <td>8.</td>
+                <td>United Kingdom</td>
+                <td>$13.75</td>
+            </tr>
+            <tr>
+                <td>9.</td>
+                <td>Canada</td>
+                <td>$13.50</td>
+            </tr>
+            <tr>
+                <td>10.</td>
+                <td>United States</td>
+                <td>$13.00</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2023 YouTube Earnings Calculator. All rights reserved.</p>
+        <a href="privacy-policy.html">Privacy Policy</a> |
+        <a href="terms-of-use.html">Terms of Use</a> |
+        <a href="contact.html">Contact Us</a>
+    </footer>
+</body>
+
+</html>
